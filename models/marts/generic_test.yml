@@ -12,4 +12,4 @@ models:
       - name: o_orderstatus
         tests:
           - accepted_values:
-              values: ['P','O','F']       
+              values: ['P','O']       
