@@ -1,0 +1,14 @@
+data_pipeline2:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: rb17151.central-india.azure
+      user: JosephRajan
+      password: Login2SF!
+      role: dbt_role
+      database: dbt_db
+      warehouse: compute_wh
+      schema: dbt_schema
+      threads: 10
+      client_session_keep_alive: False
